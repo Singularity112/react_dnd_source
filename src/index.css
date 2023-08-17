@@ -1,0 +1,29 @@
+.class-to-test-stylelint {
+}
+
+.should-be-kebab-styleError {
+}
+
+body {
+  margin: 0;
+  font-family: Candara, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(#1765de, #7d6ad5);
+}
+
+.container {
+  width: 90%;
+  max-width: 1170px;
+  margin: auto;
+}
+
+button {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #1b65de;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 6px;
+}

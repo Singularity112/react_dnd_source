@@ -1,0 +1,39 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 80%;
+  gap: 10px;
+  height: calc(100vh - 100px);
+  margin-top: 100px;
+  user-select: none;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: 12px;
+  background-color: #ebecf0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.items {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.todo {
+  border-radius: 6px;
+  padding: 15px;
+  background-color: white;
+  margin-top: 10px;
+}
